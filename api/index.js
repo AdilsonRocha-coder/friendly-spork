@@ -9,7 +9,7 @@ app.get("/api", (req, res) => {
   try {
     let exists = Math.floor(Math.random() * 100) % 2 == 0 ? "está" : "não está";
     let api = {
-      //vaiCorinthians: exists,
+      vaiCorinthians: exists,
     };
     res.status(200).send(api);
   } catch (err) {
