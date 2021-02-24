@@ -1,0 +1,34 @@
+html {
+  background-color: #f1f1f1;
+  font-family: opensans, sans-serif;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container a {
+  font-size: min(17px);
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: #ff9a00;
+}
+
+p {
+  color: #27a7d8;
+  font-size: min(50px);
+  font-weight: bold;
+}
